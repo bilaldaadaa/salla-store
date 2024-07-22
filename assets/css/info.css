@@ -137,6 +137,7 @@ main p {
     letter-spacing: 2%;
     margin-bottom: 50px;
 }
+
 /*------------------------------------------------- info ---------------------------------------- */
 .info {
 
@@ -199,6 +200,7 @@ main p {
     margin-top: 42px;
 
 }
+
 /*------------------------------------------------- footer ---------------------------------------- */
 
 footer .top {
@@ -244,7 +246,7 @@ footer .top .right form input {
     outline: none;
     border: 1px solid #EEEEEE;
     border-radius: 4px;
-    padding: 10px ;
+    padding: 10px;
     color: #A5A5A5;
     line-height: 16.59px;
     font-size: 14px;
@@ -287,7 +289,7 @@ footer .copyright p {
 footer .footer_body .right {
     display: flex;
     gap: 60px;
-    flex-wrap: wrap;
+
     align-items: center;
 
 }
@@ -332,6 +334,7 @@ footer .footer_body .right img {
 
     footer .top {
         flex-direction: column;
+        justify-content: center;
         padding: 0px;
     }
 
@@ -342,16 +345,15 @@ footer .footer_body .right img {
     footer .copyright p {
         margin-bottom: 10px;
     }
-    footer .top .right form input
-    {
-        width:200px ;
+
+    footer .top .right form input {
+        width: 200px;
         margin-bottom: 10px;
-        
+
     }
-    footer .footer_body .copyright .right .img
-    {
+
+    footer .footer_body .copyright .right .img {
         margin-top: 20px;
-        
     }
 
 }
