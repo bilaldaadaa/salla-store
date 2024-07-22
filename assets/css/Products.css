@@ -448,7 +448,7 @@ footer .top .right form {
 }
 
 footer .top .right form input {
-    max-width: 352px;
+    width: 352px;
     height: 39px;
     border: none;
     outline: none;
