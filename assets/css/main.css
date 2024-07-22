@@ -1,0 +1,1228 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Rubik", sans-serif;
+    border: none;
+
+}
+
+nav {
+    height: 156px;
+}
+
+nav .top-nav,
+nav .body-nav {
+    min-height: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 70px;
+    background-color: #F8F8F8;
+
+}
+
+/*------------------------------------------------- top nav:left-side---------------------------------------- */
+nav .top-nav .left-side ul {
+    display: flex;
+    list-style: none;
+}
+
+nav .top-nav .left-side ul a {
+    border-right: 1px solid#D6D6D6;
+    padding: 0px 10px;
+
+}
+
+nav .top-nav .left-side ul a.border-none {
+    border: none;
+}
+
+/*------------------------------------------------- top nav:right-side---------------------------------------- */
+nav .top-nav .right-side {
+    display: flex;
+}
+
+nav .top-nav .right-side .content {
+    display: flex;
+    padding: 0px 13.5px;
+    gap: 8px;
+    align-items: center;
+}
+
+nav .top-nav .right-side .content.border {
+    border-right: 1px solid #D6D6D6;
+}
+
+nav .top-nav .right-side .content a,
+nav .top-nav .left-side ul a {
+    color: #666666;
+    font-weight: 400;
+    line-height: 15.41px;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+/*------------------------------------------------- body-nav---------------------------------------- */
+nav .body-nav {
+    background-color: #ffffff;
+    min-height: 116px;
+    padding: 32px 70px;
+}
+
+nav .body-nav .right-side {
+    display: flex;
+    gap: 32px;
+}
+
+nav .body-nav .right-side .container {
+    display: flex;
+    text-align: right;
+    gap: 10px;
+}
+
+nav .body-nav .right-side .container img,
+.Secure .cards .card img {
+    width: 40px;
+    height: 40px;
+}
+
+nav .body-nav .right-side .container p {
+    text-align: center;
+    font-weight: 400;
+    color: #A5A5A5;
+    font-size: 14px;
+    line-height: 16.59px;
+}
+
+nav .body-nav .right-side .container span {
+    text-align: right;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #333333;
+}
+
+nav .body-nav .right-side .container .login {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+
+}
+
+nav .body-nav .right-side .container .login img {
+    width: 14px;
+    height: 24px;
+}
+
+/*-------------------------------------------------        hero      ---------------------------------------- */
+.hero {
+    background-image: url(../img/banner-sallastore.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 493px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero .container {
+    display: flex;
+    align-items: center;
+    max-width: 1100px;
+}
+
+.hero .container .content {
+    padding: 0px 88px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.hero .container .content h1 {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 70px;
+    margin-bottom: 16px;
+    max-width: 814px;
+}
+
+.hero .container .content p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 32px;
+    max-width: 814px;
+}
+
+.hero .container .content button {
+    color: #FFFFFF;
+    width: 200px;
+    height: 56px;
+    background-color: #62D0B6;
+    border-radius: 4px;
+    border: 1px solid #62D0B6;
+    cursor: pointer;
+}
+
+.hero .container img {
+    cursor: pointer;
+}
+
+/*-------------------------------------------------        Secure :section      ---------------------------------------- */
+.Secure .cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 44px 70px;
+
+}
+
+.Secure .cards .card {
+    display: flex;
+    align-items: center;
+    padding: 32px;
+    gap: 16px;
+}
+
+.Secure .cards .card .content h2 {
+    font-weight: 500;
+    line-height: 30px;
+    font-size: 20px;
+    color: #333333;
+}
+
+.Secure .cards .card .content p {
+    font-weight: 400;
+    line-height: 25px;
+    font-size: 16px;
+    color: #666666;
+    max-width: 288px;
+}
+
+/*-------------------------------------------------        Digital :section      ---------------------------------------- */
+.Digital .cards {
+    display: flex;
+    align-items: center;
+    padding: 56px 70px;
+    justify-content: space-between;
+
+    gap: 40px;
+}
+
+.Digital .cards .card {
+    width: 597.77px;
+
+}
+
+.Digital .cards .card .content {
+    padding: 54px 24px;
+}
+
+.Digital .cards .card .content p {
+    font-weight: 500;
+    line-height: 25px;
+    font-size: 16px;
+    color: #666666;
+
+}
+
+.Digital .cards .card .content h2 {
+
+    font-weight: 500;
+    line-height: 49px;
+    font-size: 27px;
+    color: #333333;
+    margin-bottom: 16px;
+}
+
+.Digital .cards .card .content button {
+    background-color: rgba(0, 0, 0, 0.0);
+    cursor: pointer;
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 16px;
+    color: #333333;
+    text-align: center;
+}
+
+.Digital .cards .card.phone {
+    background-image: url(../img/s22ultra-phone.png);
+    background-repeat: no-repeat;
+    background-position: right right;
+
+}
+
+.Digital .cards .card.headphone {
+    background-image: url(../img/Headphones-bcakground.png);
+    background-repeat: no-repeat;
+
+
+}
+
+/*-------------------------------------------------        Featured-top : section     ---------------------------------------- */
+
+.Featured .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    padding: 56px 70px 32px;
+    flex-wrap: wrap;
+
+}
+
+.Featured .top h1,
+.Reviews .top h1,
+.brands .top h1 {
+    font-weight: 500;
+    line-height: 35px;
+    font-size: 30px;
+    color: #333333;
+    max-width: 331px;
+}
+
+.Featured .top p,
+.Reviews .top p,
+.brands .top p {
+    font-weight: 400;
+    line-height: 25px;
+    font-size: 14px;
+    color: #666666;
+    max-width: 331px;
+}
+
+.Featured .top button,
+.Shop .top button,
+.Offers .top button {
+    width: 107px;
+    height: 38px;
+    border: 1px solid #62D0B6;
+    border-radius: 4px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #62D0B6;
+    cursor: pointer;
+}
+
+.Featured .top button a,
+.Offers .top button a {
+    text-decoration: none;
+    line-height: 16.59px;
+    font-size: 14px;
+    color: #62D0B6;
+    font-weight: 400;
+    padding-left: 8px;
+}
+
+.Featured .cards {
+    padding: 32px 70px 56px 70px;
+    display: grid;
+
+}
+
+.Featured .cards .card {
+    border: 1px solid #EEEEEE;
+    border-radius: 4px;
+
+}
+
+.Featured .cards .card .container span {
+
+    line-height: 16.59px;
+    font-size: 14px;
+    color: #62D0B6;
+    font-weight: 400;
+
+}
+
+/*-------------------------------------------------        Featured-crads : section     ---------------------------------------- */
+
+.Featured .cards {
+    padding: 32px 70px 56px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 24px;
+
+}
+
+.Featured .cards .card .img {
+    position: relative;
+}
+
+.Featured .cards .card .img span {
+    position: absolute;
+    width: 67px;
+    height: 30px;
+    left: 16px;
+    top: 16px;
+    background-color: #F55157;
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 16.59px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Featured .cards .card .img .tringle {
+
+    
+    position: absolute;
+    border-right: 10px solid transparent;
+    border-left: 10px solid #F55157;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    left: 80px;
+    top: 25px;
+    z-index: 5;
+    
+    
+}
+.Featured .cards .card .img .tringle.new
+{
+    border-left: 10px solid #62D0B6;
+    left: 68.5px;
+}
+.Featured .cards .card .img .green {
+    background-color: #62D0B6;
+    width: 55px;
+}
+
+.Featured .cards .card .img img {
+    width: 100%;
+    height: 228px;
+}
+
+.Featured .cards .card {
+    width: 288.5px;
+    height: max-content;
+    border: 1px solid #EEEEEE;
+}
+
+.Featured .cards .card .container {
+    padding: 16px;
+}
+
+.Featured .cards .card .container span {
+    color: #62D0B6;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.59px;
+}
+
+.Featured .cards .card .container .content h2 {
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.96px;
+    margin: 4px 0px;
+}
+
+.Featured .cards .card .container .content p {
+    color: #666666;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.59px;
+    margin-bottom: 4px;
+}
+
+.Featured .cards .card .container .content .price del {
+    color: #A5A5A5;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-right: 6px;
+}
+
+.Featured .cards .card .container .content .price span {
+    color: #F55157;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.Featured .cards .card .container .content .price .not_discount {
+    color: #333333;
+}
+
+.Featured .cards .card .container .content .price {
+    margin-bottom: 16px;
+}
+
+.Featured .cards .card .container .btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Featured .cards .card .container .btn img {
+
+    padding: 19px 16px;
+}
+
+.Featured .cards .card .container .btn .border {
+    border: 1px solid #EEEEEE;
+    border-radius: 4px;
+}
+
+.Featured .cards .card .container .btn button {
+    width: 198.5px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    color: #333333;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    border-radius: 4px;
+    border: 1px solid #EEEEEE;
+}
+
+.Featured .cards .card .container .btn button:hover {
+    background-color: #62D0B6;
+    color: #FFFFFF;
+}
+
+.Featured .cards .card:hover {
+    border-color: #62D0B6;
+}
+
+
+/*-------------------------------------------------        best : section     ---------------------------------------- */
+.best {
+    background-image: url(../img/best_background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 90px 70px;
+    gap: 20px;
+
+}
+
+.best .left h1,
+.shoes h1 {
+    color: #FFFFFF;
+    font-size: 48px;
+    line-height: 70px;
+    font-weight: 400;
+    max-width: 503px;
+    margin-bottom: 16px;
+}
+
+.best .left p,
+.shoes p {
+    max-width: 503px;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+.best img {
+    max-width: 100%;
+    max-height: 100%;
+    
+}
+
+.best .left button,
+.shoes button {
+    width: 200px;
+    height: 56px;
+    color: #ffffff;
+    border: 1px solid #62D0B6;
+    background-color: #62D0B6;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+/*-------------------------------------------------        shop : section     ---------------------------------------- */
+.Shop {
+    padding: 56px 70px;
+
+}
+
+.Shop .top,
+.Offers .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    flex-wrap: wrap;
+}
+
+.Shop .top .content h1,
+.Offers .top .content h1 {
+    color: #333333;
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: 500;
+
+}
+
+.Shop .top .content p,
+.Offers .top .content p {
+    color: #666666;
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 400;
+}
+
+.Shop .body {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+    flex-wrap: wrap;
+}
+
+.Shop .body .card {
+    width: 154.57px;
+}
+
+.Shop .body .card img {
+    padding: 0px 9.80px;
+    margin-bottom: 16px;
+
+}
+
+.Shop .body .card .content {
+    text-align: center;
+}
+
+.Shop .body .card .content h3 {
+    font-weight: 400;
+    font-size: 20px;
+    color: #333333;
+    line-height: 30px;
+}
+
+.Shop .body .card .content p {
+    color: #666666;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 400;
+}
+
+/*-------------------------------------------------        offers : section     ---------------------------------------- */
+
+.Offers {
+    padding: 56px 70px 86px;
+}
+
+.Offers .body {
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+.Offers .body .card {
+    display: flex;
+    gap: 16px;
+    max-width: 601px;
+    position: relative;
+    align-items: center;
+    border: 2px solid #62D0B6;
+    padding: 16px;
+}
+
+.Offers .body .card .Discounts img {
+    width: 100%;
+}
+
+.Offers .body .card .Discounts span {
+    position: absolute;
+    left: 16px;
+    top: 16px;
+    background-color: #F55157;
+    width: 67px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 16.59px;
+    font-weight: 400;
+    border-radius: 2px;
+}
+
+.Offers .body .card .container .content span {
+    color: #62D0B6;
+    font-size: 14px;
+    line-height: 16.59px;
+    font-weight: 400;
+    margin-bottom: 4px;
+}
+
+.Offers .body .card .container .content h2 {
+    color: #333333;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 400;
+    margin-bottom: 4px;
+}
+
+.Offers .body .card .container .content p {
+    color: #666666;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 400;
+    margin-bottom: 4px;
+}
+
+.Offers .body .card .container .rating {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.Offers .body .card .container .rating span {
+    color: #A5A5A5;
+    font-size: 14px;
+    line-height: 20.58px;
+}
+
+.Offers .body .card .container .price {
+    color: #F55157;
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+
+.Offers .body .card .container .boxs {
+    display: flex;
+    gap: 8px;
+
+}
+
+.Offers .body .card .container .boxs .box {
+    width: 83.25px;
+    height: 49px;
+    background-color: #F8F8F8;
+    text-align: center;
+    padding-top: 4px;
+    margin-bottom: 16px;
+
+}
+
+.Offers .body .card .container .boxs .box h5 {
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #333333;
+}
+
+.Offers .body .card .container .boxs .box p {
+    color: #A5A5A5;
+    line-height: 16.59px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: -6px;
+}
+
+.Offers .body .card .container .btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.Offers .body .card .container .btn .like {
+    border: 1px solid #EEEEEE;
+    padding: 19px 16px;
+    border-radius: 4px;
+}
+
+.Offers .body .card .container .btn button {
+    border: 1px solid #62D0B6;
+    border-radius: 4px;
+    background-color: #62D0B6;
+    width: 299px;
+    height: 56px;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
+}
+
+/*-------------------------------------------------        faster : section     ---------------------------------------- */
+
+.faster,
+.Reviews,
+.brands {
+    padding: 56px 70px;
+}
+
+.faster .cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+.faster .cards .card {
+    max-width: 392.67px;
+    padding: 32px 56px;
+    text-align: center;
+
+
+}
+
+.faster .cards .card.one,
+.faster .cards .card.one button {
+    background-color: #FDDCDD;
+}
+
+
+.faster .cards .card.two,
+.faster .cards .card.two button {
+    background-color: #FFEFDA;
+}
+
+.faster .cards .card.three,
+.faster .cards .card.three button {
+    background-color: #E0F6F0;
+}
+
+.faster .cards .card img {
+    margin-bottom: 24px;
+    max-width: 100%;
+}
+
+.faster .cards .card h1 {
+    color: #333333;
+    max-width: 280.67px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.33px;
+    margin-bottom: 8px;
+}
+
+.faster .cards .card p {
+    color: #666666;
+    max-width: 280.67px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.59px;
+    margin-bottom: 16px;
+}
+
+.faster .cards .card button {
+    color: #333333;
+    max-width: 280.67px;
+    height: 45px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+
+
+}
+
+/*-------------------------------------------------        shoes : section     ---------------------------------------- */
+
+.shoes {
+    background-image: url(../img/shoes.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 391px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 56px 30px 24px;
+    text-align: center;
+}
+
+.shoes button {
+    margin-bottom: 48px;
+}
+
+.shoes .next {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 6px;
+}
+
+.shoes .next span {
+    width: 14px;
+    height: 14px;
+    border: 1px solid #EEEEEE;
+    border-radius: 50%;
+}
+
+.shoes .next span.green {
+    width: 37px;
+    background-color: #62D0B6;
+    border-radius: 10px;
+    border: 1px solid #62D0B6;
+}
+
+/*-------------------------------------------------        Reviews : section     ---------------------------------------- */
+.Reviews .cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 32px;
+
+}
+
+.Reviews .cards .card {
+    width: 380px;
+    border: 1px solid #EEEEEE;
+    padding: 24px;
+}
+
+.Reviews .cards .card .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.Reviews .cards .card p {
+    width: 332px;
+    color: #666666;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 400;
+    margin-bottom: 16px;
+
+}
+
+.Reviews .cards .card .name h4 {
+    color: #333333;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 400;
+}
+
+.Reviews .cards .card .name p {
+    color: #666666;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.59px;
+}
+
+/*-------------------------------------------------        brands  : section     ---------------------------------------- */
+.brands {
+    padding: 24px 70px;
+    flex-wrap: wrap;
+}
+
+.brands .body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 32px;
+    flex-wrap: wrap;
+
+}
+
+.brands .body img {
+    border: 1px solid #EEEEEE;
+    padding: 24px 35px;
+    filter: grayscale(100%);
+}
+
+.brands .body img:hover {
+    filter: grayscale(0%);
+}
+
+footer .top {
+    background-color: #F8F8F8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 70px;
+
+}
+
+footer .top .left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+footer .top .left h3 {
+    color: #333333;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+footer .top .left p {
+    color: #666666;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.59px;
+}
+
+footer .top .right form {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+footer .top .right form input {
+    width: 352px;
+    height: 39px;
+    border: none;
+    outline: none;
+    border: 1px solid #EEEEEE;
+    border-radius: 4px;
+    padding: 10px;
+    color: #A5A5A5;
+    line-height: 16.59px;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+footer .top .right form button {
+    width: 90px;
+    height: 39px;
+    border: 1px solid #62D0B6;
+    background-color: #62D0B6;
+    border-radius: 4px;
+    color: #ffffff;
+    line-height: 16.59px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+footer .footer_body {
+    background-color: #1D1F1F;
+    padding: 16px 70px;
+}
+
+footer .copyright {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+footer .copyright p {
+    color: #ffffff;
+    line-height: 16.59px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+footer .footer_body .right {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+
+}
+
+footer .footer_body .right img {
+    width: 81.69px;
+    height: 31px;
+}
+
+@media screen and (max-width:992px) {
+
+    nav .top-nav,
+    nav .body-nav {
+        padding: 8px 10px;
+
+    }
+
+    nav .top-nav .left-side ul,
+    nav .top-nav .right-side {
+        flex-wrap: wrap;
+    }
+
+
+    nav .body-nav .right-side {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        align-items: end;
+        gap: 10px;
+    }
+
+    nav {
+        margin-bottom: 70px;
+    }
+
+    .hero,
+    .shoes,
+    .best {
+
+        background-position: center;
+    }
+
+    .hero .container {
+        justify-content: center;
+    }
+
+    .hero .container .content {
+        padding: 0px 30px;
+    }
+
+    .hero .container img {
+        display: none;
+    }
+
+    .Secure {
+        padding: 10px;
+    }
+
+    .Secure .cards {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+
+    .Digital .cards {
+        flex-direction: column;
+        padding: 0px 20px;
+    }
+
+    .Digital .cards .card {
+        max-width: 100vw;
+        padding: 0px 10px;
+        background-size: cover;
+
+    }
+
+    .Featured {
+        padding: 56px 0px 32px;
+    }
+
+    .Featured .top,
+    .Shop,
+    .brands,
+    .Reviews {
+        padding: 56px 20px 32px;
+    }
+
+    .Featured .top button,
+    .Shop .top button,
+    .Offers .top button {
+        margin-top: 30px;
+    }
+
+    .Featured .cards {
+        padding: 10px;
+        justify-content: center;
+    }
+
+    .best {
+        padding: 30px;
+        justify-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .best img {
+        max-width: 100%;
+        margin-top: 30px;
+    }
+
+    .Shop .body,
+    .Reviews .cards,
+    .brands .body {
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+    }
+
+    .Offers {
+        padding: 30px 10px;
+    }
+
+    .Offers .body {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    .Offers .body .card {
+        justify-content: center;
+        margin-top: 40px;
+        flex-wrap: wrap;
+        padding: 20px;
+
+    }
+
+    .Offers .body .card .container {
+        flex-wrap: wrap;
+    }
+
+    .Offers .body .card .boxs {
+        flex-wrap: wrap;
+    }
+
+    .Offers .body .card .container .btn {
+        flex-wrap: wrap;
+    }
+
+    .Offers .body .card .container .btn button {
+        max-width: 145px;
+    }
+
+    .faster {
+        padding: 56px 0px;
+    }
+
+    .faster .cards {
+        justify-content: center;
+        align-items: center;
+        padding: 32px 10px;
+    }
+
+    .shoes {
+        padding: 20px;
+    }
+
+    footer .top {
+        flex-direction: column;
+        padding: 0px;
+    }
+
+    footer .top .left p {
+        padding-bottom: 30px;
+    }
+
+    footer .copyright p {
+        margin-bottom: 10px;
+    }
+
+    footer .top .right form input {
+        width: 200px;
+        margin-bottom: 10px;
+
+    }
+
+    footer .footer_body .copyright .right .img {
+        margin-top: 20px;
+    }
+
+
+}

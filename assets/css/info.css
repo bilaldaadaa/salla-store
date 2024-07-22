@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Rubik", sans-serif;
+    border: none;
+
+}
+
+nav {
+    height: 156px;
+}
+
+nav .top-nav,
+nav .body-nav {
+    min-height: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 70px;
+    background-color: #F8F8F8;
+
+}
+
+/*------------------------------------------------- top nav:left-side---------------------------------------- */
+nav .top-nav .left-side ul {
+    display: flex;
+    list-style: none;
+}
+
+nav .top-nav .left-side ul a {
+    border-right: 1px solid#D6D6D6;
+    padding: 0px 10px;
+
+}
+
+nav .top-nav .left-side ul a.border-none {
+    border: none;
+}
+
+/*------------------------------------------------- top nav:right-side---------------------------------------- */
+nav .top-nav .right-side {
+    display: flex;
+}
+
+nav .top-nav .right-side .content {
+    display: flex;
+    padding: 0px 13.5px;
+    gap: 8px;
+    align-items: center;
+}
+
+nav .top-nav .right-side .content.border {
+    border-right: 1px solid #D6D6D6;
+}
+
+nav .top-nav .right-side .content a,
+nav .top-nav .left-side ul a {
+    color: #666666;
+    font-weight: 400;
+    line-height: 15.41px;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+/*------------------------------------------------- body-nav---------------------------------------- */
+nav .body-nav {
+    background-color: #ffffff;
+    min-height: 116px;
+    padding: 32px 70px;
+}
+
+nav .body-nav .right-side {
+    display: flex;
+    gap: 32px;
+}
+
+nav .body-nav .right-side .container {
+    display: flex;
+    text-align: right;
+    gap: 10px;
+}
+
+nav .body-nav .right-side .container img,
+.Secure .cards .card img {
+    width: 40px;
+    height: 40px;
+}
+
+nav .body-nav .right-side .container p {
+    text-align: center;
+    font-weight: 400;
+    color: #A5A5A5;
+    font-size: 14px;
+    line-height: 16.59px;
+}
+
+nav .body-nav .right-side .container span {
+    text-align: right;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #333333;
+}
+
+nav .body-nav .right-side .container .login {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+
+}
+
+nav .body-nav .right-side .container .login img {
+    width: 14px;
+    height: 24px;
+}
+
+main {
+    padding: 32px 70px 57px 70px;
+
+}
+
+main h1 {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 33.5px;
+    color: #333333;
+    letter-spacing: 2%;
+}
+
+main p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 33.5px;
+    color: #666666;
+    letter-spacing: 2%;
+    margin-bottom: 50px;
+}
+/*------------------------------------------------- info ---------------------------------------- */
+.info {
+
+    border-bottom: 1px solid #EDEEF2;
+    padding-bottom: 33px;
+}
+
+.info h2 {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 33.5px;
+    color: #333333;
+    letter-spacing: 2%;
+    margin-bottom: 32px;
+}
+
+.info .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 34px;
+}
+
+.info .container .content label {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.33px;
+    color: #666666;
+}
+
+.info .container .content input {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.96px;
+    color: #333333;
+
+}
+
+.info .container button {
+    cursor: pointer;
+    background-color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.96px;
+    color: #333333;
+}
+
+.info .btn button {
+    width: 209px;
+    height: 53px;
+    border-radius: 8px;
+    background-color: #62D0B6;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.33px;
+    cursor: pointer;
+    margin-top: 42px;
+
+}
+/*------------------------------------------------- footer ---------------------------------------- */
+
+footer .top {
+    background-color: #F8F8F8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 70px;
+
+}
+
+footer .top .left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+footer .top .left h3 {
+    color: #333333;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+footer .top .left p {
+    color: #666666;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.59px;
+}
+
+footer .top .right form {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+footer .top .right form input {
+    width: 352px;
+    height: 39px;
+    border: none;
+    outline: none;
+    border: 1px solid #EEEEEE;
+    border-radius: 4px;
+    padding: 10px ;
+    color: #A5A5A5;
+    line-height: 16.59px;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+footer .top .right form button {
+    width: 90px;
+    height: 39px;
+    border: 1px solid #62D0B6;
+    background-color: #62D0B6;
+    border-radius: 4px;
+    color: #ffffff;
+    line-height: 16.59px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+footer .footer_body {
+    background-color: #1D1F1F;
+    padding: 16px 70px;
+}
+
+footer .copyright {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+footer .copyright p {
+    color: #ffffff;
+    line-height: 16.59px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+footer .footer_body .right {
+    display: flex;
+    gap: 60px;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+footer .footer_body .right img {
+    width: 81.69px;
+    height: 31px;
+}
+
+
+@media screen and (max-width:992px) {
+
+    nav .top-nav,
+    nav .body-nav {
+        padding: 8px 10px;
+    }
+
+    nav .top-nav .left-side ul,
+    nav .top-nav .right-side {
+        flex-wrap: wrap;
+    }
+
+    nav .top-nav .right-side {
+        justify-content: right;
+    }
+
+    nav .body-nav .right-side {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        align-items: end;
+        gap: 10px;
+
+    }
+
+    nav {
+        margin-bottom: 70px;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    footer .top {
+        flex-direction: column;
+        padding: 0px;
+    }
+
+    footer .top .left p {
+        padding-bottom: 30px;
+    }
+
+    footer .copyright p {
+        margin-bottom: 10px;
+    }
+    footer .top .right form input
+    {
+        width:200px ;
+        margin-bottom: 10px;
+        
+    }
+    footer .footer_body .copyright .right .img
+    {
+        margin-top: 20px;
+        
+    }
+
+}

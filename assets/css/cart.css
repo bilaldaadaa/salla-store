@@ -1,0 +1,475 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Rubik", sans-serif;
+    border: none;
+
+}
+
+nav {
+    height: 156px;
+}
+
+nav .top-nav,
+nav .body-nav {
+    min-height: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 70px;
+    background-color: #F8F8F8;
+
+}
+
+/*------------------------------------------------- top nav:left-side---------------------------------------- */
+nav .top-nav .left-side ul {
+    display: flex;
+    list-style: none;
+}
+
+nav .top-nav .left-side ul a {
+    border-right: 1px solid#D6D6D6;
+    padding: 0px 10px;
+
+}
+
+nav .top-nav .left-side ul a.border-none {
+    border: none;
+}
+
+/*------------------------------------------------- top nav:right-side---------------------------------------- */
+nav .top-nav .right-side {
+    display: flex;
+}
+
+nav .top-nav .right-side .content {
+    display: flex;
+    padding: 0px 13.5px;
+    gap: 8px;
+    align-items: center;
+}
+
+nav .top-nav .right-side .content.border {
+    border-right: 1px solid #D6D6D6;
+}
+
+nav .top-nav .right-side .content a,
+nav .top-nav .left-side ul a {
+    color: #666666;
+    font-weight: 400;
+    line-height: 15.41px;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+/*------------------------------------------------- body-nav---------------------------------------- */
+nav .body-nav {
+    background-color: #ffffff;
+    min-height: 116px;
+    padding: 32px 70px;
+}
+
+nav .body-nav .right-side {
+    display: flex;
+    gap: 32px;
+}
+
+nav .body-nav .right-side .container {
+    display: flex;
+    text-align: right;
+    gap: 10px;
+}
+
+nav .body-nav .right-side .container img,
+.Secure .cards .card img {
+    width: 40px;
+    height: 40px;
+}
+
+nav .body-nav .right-side .container p {
+    text-align: center;
+    font-weight: 400;
+    color: #A5A5A5;
+    font-size: 14px;
+    line-height: 16.59px;
+}
+
+nav .body-nav .right-side .container span {
+    text-align: right;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #333333;
+}
+
+nav .body-nav .right-side .container .login {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+
+}
+
+nav .body-nav .right-side .container .login img {
+    width: 14px;
+    height: 24px;
+}
+
+/*-------------------------------------------------  main :left-side ---------------------------------------- */
+main {
+    padding: 40px 70px;
+    margin: 56px 0px 90px 0px;
+    display: flex;
+
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+}
+
+main .left-side .card {
+    display: flex;
+    align-items: center;
+
+    justify-content: space-between;
+    max-width: 920px;
+    min-height: 112px;
+    border: 1px solid #EEEEEE;
+    margin-bottom: 16px;
+    padding: 16px;
+}
+
+main .left-side .card .container {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+
+main .left-side .card .container .content p {
+    max-width: 352px;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.96px;
+    margin-bottom: 25px;
+}
+
+main .left-side .card .container .content span {
+    color: #666666;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.59px;
+}
+
+main .left-side .card .count {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 174px;
+    height: 50px;
+    border-radius: 4px;
+    border: 1px solid #EEEEEE;
+    cursor: pointer;
+    color: #666666;
+    line-height: 25px;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0px 40px;
+}
+
+main .left-side .card .count .mid {
+    border-left: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
+    padding: 0px 24px;
+    cursor: auto;
+}
+
+main .left-side .card .price,
+main .right-side h2 {
+    color: #333333;
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+main .left-side .card .cancel {
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+/*------------------------------------------------- main :right-side---------------------------------------- */
+main .right-side {
+    border: 1px solid #EEEEEE;
+    border-radius: 4px;
+    padding: 16px;
+    height: max-content;
+    width: 282px;
+}
+
+main .right-side .card h2 {
+    margin-bottom: 16px;
+}
+
+main .right-side .card .Total_products {
+    display: flex;
+    justify-content: space-between;
+}
+
+main .right-side .card .Total_products p,
+main .right-side .card .Total_products span {
+    color: #666666;
+    line-height: 25px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+main .right-side .card .code p {
+    color: #333333;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.59px;
+    margin-bottom: 8px;
+
+}
+
+main .right-side .card form {
+    display: flex;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+main .right-side .card form input {
+    width: 250px;
+    height: 38px;
+    border-radius: 4px;
+    border: 1px solid #EEEEEE;
+    padding: 18px 20px;
+    outline: none;
+}
+
+main .right-side .card form button {
+    border: 1px solid #62D0B6;
+    color: #62D0B6;
+    border-radius: 4px;
+    width: 58px;
+    height: 38px;
+    background-color: #ffffff;
+    font-size: 14px;
+    line-height: 16.59px;
+
+}
+
+main .right-side .card .Total {
+    margin: 16px 0px;
+}
+
+main .right-side .card .Total .content {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+main .right-side .card .Total .content p,
+main .right-side .card .Total .content span {
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.96px;
+}
+
+main .right-side .card .Total p {
+    color: #A5A5A5;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.59px;
+}
+
+main .right-side .btn {
+    display: flex;
+    justify-content: center;
+}
+
+main .right-side .btn button {
+    width: 250px;
+    height: 56px;
+    background-color: #62D0B6;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 1px solid #62D0B6;
+}
+
+main .right-side .btn button a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+
+}
+
+footer .top {
+    background-color: #F8F8F8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 70px;
+
+}
+
+footer .top .left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+footer .top .left h3 {
+    color: #333333;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+footer .top .left p {
+    color: #666666;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.59px;
+}
+
+footer .top .right form {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+footer .top .right form input {
+    width: 352px;
+    height: 39px;
+    border: none;
+    outline: none;
+    border: 1px solid #EEEEEE;
+    border-radius: 4px;
+    padding: 10px;
+    color: #A5A5A5;
+    line-height: 16.59px;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+footer .top .right form button {
+    width: 90px;
+    height: 39px;
+    border: 1px solid #62D0B6;
+    background-color: #62D0B6;
+    border-radius: 4px;
+    color: #ffffff;
+    line-height: 16.59px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+footer .footer_body {
+    background-color: #1D1F1F;
+    padding: 16px 70px;
+}
+
+footer .copyright {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+footer .copyright p {
+    color: #ffffff;
+    line-height: 16.59px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+footer .footer_body .right {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+
+}
+
+footer .footer_body .right img {
+    width: 81.69px;
+    height: 31px;
+}
+
+@media screen and (max-width:992px) {
+
+    nav .top-nav,
+    nav .body-nav {
+        padding: 8px 10px;
+    }
+
+    nav .top-nav .left-side ul,
+    nav .top-nav .right-side {
+        flex-wrap: wrap;
+    }
+
+    nav .top-nav .right-side {
+        justify-content: right;
+    }
+
+    nav .body-nav .right-side {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        align-items: end;
+        gap: 10px;
+    }
+
+    nav {
+        margin-bottom: 50px;
+    }
+
+    main {
+        padding: 40px 0px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    main .left-side .card {
+
+        flex-direction: column;
+        gap: 30px;
+    }
+    main .left-side .card .container {
+        justify-content: center;
+
+    }
+    
+
+
+    footer .top {
+        flex-direction: column;
+        padding: 0px;
+    }
+
+    footer .top .left p {
+        padding-bottom: 30px;
+    }
+
+    footer .copyright p {
+        margin-bottom: 10px;
+    }
+
+    footer .top .right form input {
+        width: 200px;
+        margin-bottom: 10px;
+
+    }
+
+    footer .footer_body .copyright .right .img {
+        margin-top: 20px;
+    }
+
+}

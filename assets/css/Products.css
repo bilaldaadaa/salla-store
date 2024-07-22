@@ -1,0 +1,580 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Rubik", sans-serif;
+    border: none;
+
+}
+
+nav {
+    height: 156px;
+}
+
+nav .top-nav,
+nav .body-nav {
+    min-height: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 70px;
+    background-color: #F8F8F8;
+
+}
+
+/*------------------------------------------------- top nav:left-side---------------------------------------- */
+nav .top-nav .left-side ul {
+    display: flex;
+    list-style: none;
+}
+
+nav .top-nav .left-side ul a {
+    border-right: 1px solid#D6D6D6;
+    padding: 0px 10px;
+
+}
+
+nav .top-nav .left-side ul a.border-none {
+    border: none;
+}
+
+/*------------------------------------------------- top nav:right-side---------------------------------------- */
+nav .top-nav .right-side {
+    display: flex;
+}
+
+nav .top-nav .right-side .content {
+    display: flex;
+    padding: 0px 13.5px;
+    gap: 8px;
+    align-items: center;
+}
+
+nav .top-nav .right-side .content.border {
+    border-right: 1px solid #D6D6D6;
+}
+
+nav .top-nav .right-side .content a,
+nav .top-nav .left-side ul a {
+    color: #666666;
+    font-weight: 400;
+    line-height: 15.41px;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+/*------------------------------------------------- body-nav---------------------------------------- */
+nav .body-nav {
+    background-color: #ffffff;
+    min-height: 116px;
+    padding: 32px 70px;
+}
+
+nav .body-nav .right-side {
+    display: flex;
+    gap: 32px;
+}
+
+nav .body-nav .right-side .container {
+    display: flex;
+    text-align: right;
+    gap: 10px;
+}
+
+nav .body-nav .right-side .container img,
+.Secure .cards .card img {
+    width: 40px;
+    height: 40px;
+}
+
+nav .body-nav .right-side .container p {
+    text-align: center;
+    font-weight: 400;
+    color: #A5A5A5;
+    font-size: 14px;
+    line-height: 16.59px;
+}
+
+nav .body-nav .right-side .container span {
+    text-align: right;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #333333;
+}
+
+nav .body-nav .right-side .container .login {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+
+}
+
+nav .body-nav .right-side .container .login img {
+    width: 14px;
+    height: 24px;
+}
+/*------------------------------------------------- phone-info---------------------------------------- */
+.phone-info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding: 74px 70px 97px;
+
+}
+
+.phone-info h1 {
+    max-width: 586px;
+    color: #333333;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35.28px;
+}
+
+.phone-info .info .container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 21px;
+    margin: 16px 0px;
+
+}
+
+.phone-info .info .container span {
+    color: #666666;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.59px;
+    padding: 0px 16px;
+    display: flex;
+    gap: 8px;
+}
+
+
+.phone-info .info .container img {
+    cursor: pointer;
+}
+
+.phone-info .info .container .mid {
+
+    border-left: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
+}
+
+.phone-info .info .content p {
+    max-width: 586px;
+    color: #666666;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.phone-info .info .content a {
+    color: #62D0B6;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.phone-info .info .Add-Edit .customization {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 10px 0px;
+    border: 1px solid #EEEEEE;
+    padding: 22.5px 16px;
+}
+
+.phone-info .info .Add-Edit .customization.last {
+    padding: 16px;
+}
+
+.phone-info .info .Add-Edit .customization .container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+}
+
+.phone-info .info .Add-Edit .customization .container h3 {
+    color: #333333;
+    max-width: 383px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.96px;
+}
+
+.phone-info .info .Add-Edit .customization .container .content p {
+    color: #666666;
+    max-width: 383px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15.41px;
+}
+
+.pointer {
+    cursor: pointer;
+}
+.phone-info .phone
+{
+    max-width:100% ;
+}
+
+.phone-info .info .Add-Edit .customization button {
+    border: 1px solid #62D0B6;
+    color: #62D0B6;
+    background-color: #ffffff;
+    width: 95px;
+    height: 38px;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.59px;
+    cursor: pointer;
+}
+
+.phone-info .info .price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+
+.phone-info .info .price .count {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 174px;
+    height: 50px;
+    border-radius: 4px;
+    border: 1px solid #EEEEEE;
+    cursor: pointer;
+    color: #666666;
+    line-height: 25px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.phone-info .info .price .count .mid {
+    border-left: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
+    padding: 0px 24px;
+    cursor: auto;
+}
+
+.phone-info .info .price p {
+    color: #333333;
+    font-size: 24px;
+    line-height: 35.28px;
+    font-weight: 400;
+
+}
+
+.phone-info .info .btn {
+    display: flex;
+    align-items: center;
+    
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 24px;
+}
+
+.phone-info .info .btn button {
+    width: 285px;
+    height: 56px;
+    border: 1px solid #62D0B6;
+    border-radius: 4px;
+    color: #ffffff;
+    background-color: #62D0B6;
+    cursor: pointer;
+}
+
+.phone-info .info .btn .left {
+    color: #62D0B6;
+    background-color: #ffffff;
+}
+/*------------------------------------------------- Similar ---------------------------------------- */
+
+.Similar {
+    padding: 0px 70px 90px;
+}
+
+.Similar h1 {
+    color: #333333;
+    font-size: 24px;
+    line-height: 35px;
+    font-weight: 400;
+
+}
+
+.Similar p {
+    color: #666666;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 400;
+    margin-bottom: 49px;
+}
+
+.Similar .cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.Similar .cards .card {
+    border: 1px solid #EEEEEE;
+    width: 288.5px;
+    border-radius: 4px;
+}
+.Similar .cards .card:hover
+{
+    border: 1px solid #62D0B6;
+}
+
+.Similar .cards .card .container {
+    padding: 16px;
+}
+
+.Similar .cards .card .container span {
+    color: #62D0B6;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 9px;
+    margin-bottom: 4px;
+}
+
+.Similar .cards .card .container .content h2 {
+    color: #333333;
+    font-size: 16px;
+    line-height: 18.96px;
+    font-weight: 400;
+}
+
+.Similar .cards .card .container .content p {
+    color: #666666;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.59px;
+    margin-bottom: 4px;
+
+}
+
+.Similar .cards .card .container .price span {
+    color: #333333;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+
+}
+
+.Similar .cards .card .container .btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+.Similar .cards .card .container .btn img.like {
+    border: 1px solid #EEEEEE;
+    padding: 19px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.Similar .cards .card .container .btn button {
+    width: 198.5px;
+    height: 56px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    border: 1px solid #EEEEEE;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+
+.Similar .cards .card .container .btn button:hover
+{
+    color: #ffffff;
+    background-color: #62D0B6;
+}
+/*------------------------------------------------- footer ---------------------------------------- */
+
+footer .top {
+    background-color: #F8F8F8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 70px;
+
+}
+
+footer .top .left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+footer .top .left h3 {
+    color: #333333;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+footer .top .left p {
+    color: #666666;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.59px;
+}
+
+footer .top .right form {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+footer .top .right form input {
+    max-width: 352px;
+    height: 39px;
+    border: none;
+    outline: none;
+    border: 1px solid #EEEEEE;
+    border-radius: 4px;
+    padding: 10px ;
+    color: #A5A5A5;
+    line-height: 16.59px;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+footer .top .right form button {
+    width: 90px;
+    height: 39px;
+    border: 1px solid #62D0B6;
+    background-color: #62D0B6;
+    border-radius: 4px;
+    color: #ffffff;
+    line-height: 16.59px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+footer .footer_body {
+    background-color: #1D1F1F;
+    padding: 16px 70px;
+}
+
+footer .copyright {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+footer .copyright p {
+    color: #ffffff;
+    line-height: 16.59px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+footer .footer_body .right {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+
+}
+
+footer .footer_body .right img {
+    width: 81.69px;
+    height: 31px;
+}
+@media screen and (max-width:992px) {
+
+    nav .top-nav,
+    nav .body-nav {
+        padding: 8px 10px;
+    }
+
+    nav .top-nav .left-side ul,
+    nav .top-nav .right-side {
+        flex-wrap: wrap;
+    }
+
+    nav .top-nav .right-side {
+        justify-content: right;
+    }
+
+    nav .body-nav .right-side {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        align-items: end;
+        gap: 10px;
+
+    }
+
+    nav {
+        margin-bottom: 50px;
+    }
+    .phone-info .info .container
+    {
+        margin-bottom: 30px;
+    }
+    .phone-info
+    {
+        padding: 74px 20px 97px;
+        justify-content: center;
+    }
+    .phone-info .info .Add-Edit .customization.last button
+    {
+        margin-top: 40px;
+    }
+    .Similar
+    {
+        padding: 0px 35px 90px;
+    }
+    .Similar .cards 
+    {
+        justify-content: center;
+    }
+
+
+    footer .top {
+        flex-direction: column;
+        padding: 0px;
+    }
+
+    footer .top .left p {
+        padding-bottom: 30px;
+    }
+
+    footer .copyright p {
+        margin-bottom: 10px;
+    }
+
+    footer .top .right form input {
+        width: 200px;
+        margin-bottom: 10px;
+
+    }
+    footer .footer_body .copyright .right .img {
+        margin-top: 20px;
+    }
+
+}
