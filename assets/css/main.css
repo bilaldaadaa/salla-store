@@ -370,7 +370,7 @@ nav .body-nav .right-side .container .login img {
 
 .Featured .cards .card .img .tringle {
 
-    
+
     position: absolute;
     border-right: 10px solid transparent;
     border-left: 10px solid #F55157;
@@ -379,14 +379,15 @@ nav .body-nav .right-side .container .login img {
     left: 80px;
     top: 25px;
     z-index: 5;
-    
-    
+
+
 }
-.Featured .cards .card .img .tringle.new
-{
+
+.Featured .cards .card .img .tringle.new {
     border-left: 10px solid #62D0B6;
     left: 68.5px;
 }
+
 .Featured .cards .card .img .green {
     background-color: #62D0B6;
     width: 55px;
@@ -530,7 +531,7 @@ nav .body-nav .right-side .container .login img {
 .best img {
     max-width: 100%;
     max-height: 100%;
-    
+
 }
 
 .best .left button,
@@ -950,6 +951,7 @@ nav .body-nav .right-side .container .login img {
     filter: grayscale(0%);
 }
 
+/*-------------------------------------------------        footer : section     ---------------------------------------- */
 footer .top {
     background-color: #F8F8F8;
     display: flex;
@@ -1150,6 +1152,7 @@ footer .footer_body .right img {
     .brands .body {
         flex-wrap: nowrap;
         overflow-x: scroll;
+        scrollbar-width: none;
     }
 
     .Offers {
